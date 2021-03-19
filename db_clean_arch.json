@@ -1,0 +1,16 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "author": "George Alexandre",
+            "title": "My First Post Using Express.JS",
+            "content": "Lorem Ipsum"
+        },
+        {
+            "id": 2,
+            "author": "George Alexandre",
+            "title": "My Second Post Using Express.JS",
+            "content": "Lorem Ipsum"
+        }
+    ]
+}
