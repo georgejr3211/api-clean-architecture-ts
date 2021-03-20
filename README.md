@@ -21,3 +21,5 @@ Projeto desenvolvido para aplicar conceitos aprendidos sobre Clean Architecture
 # Dúvidas
 ## O que são interface adapters
 > São classes que fazem a comunicação das camadas externas com as camadas mais internas da aplicação, ou seja, são mediadores.
+
+Importante: Adaptadores são camadas lógicas e não físicas

@@ -1,7 +1,7 @@
-import { Post } from "../../entities/post";
-import db from "../../infra/database/node-json-db";
-import { SavePostDto } from "../../usecase/posts/ports/dtos/savePostDto";
-import { PostRepository } from "../../usecase/posts/ports/repository/postRepository";
+import { Post } from "../../../entities/post";
+import { SavePostDto } from "../../../usecase/posts/ports/dtos/savePostDto";
+import { PostRepository } from "../../../usecase/posts/ports/repository/postRepository";
+import db from "../node-json-db";
 
 export class PostRepositoryImpl implements PostRepository {
   constructor() { }
@@ -55,4 +55,5 @@ export class PostRepositoryImpl implements PostRepository {
       reject(false);
     });
   }
+  
 }
