@@ -17,3 +17,7 @@ Projeto desenvolvido para aplicar conceitos aprendidos sobre Clean Architecture
 
 ## Infra
   > Camada de configuração e implementação de frameworks e drivers
+
+# Dúvidas
+## O que são interface adapters
+> São classes que fazem a comunicação das camadas externas com as camadas mais internas da aplicação, ou seja, são mediadores.
